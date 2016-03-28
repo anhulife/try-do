@@ -62,7 +62,8 @@
    * @param {number} [options.count=1] 次数限制
    * @param {number} [options.timeout] 时间限制
    * @param {number|function} [options.delay=0] 任务之间的延时，可以是函数
-   * @param {function} [options.callback] 结束后的回调，如果不传，就返回一个 Promise 对象
+   * @param {function} [options.callback] 结束后的回调
+   * @return {Object} 任务执行的 Promise 对象
    */
   function tryDo(task, options) {
     task = wrapTask(task);
