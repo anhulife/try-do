@@ -1,5 +1,7 @@
 {
   "name": "try-do",
+  "description": "尝试执行一个任务，直到执行成功，除非超过指定次数或时间",
+  "repository": "anhulife/try-do",
   "version": "1.0.0",
   "scripts": {
     "test": "mocha"
